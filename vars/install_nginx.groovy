@@ -1,3 +1,5 @@
+#!/usr/bin/env groovy
+
 def call(){
   pipeline {
     agent { label 'EC2-Agent-1' }
